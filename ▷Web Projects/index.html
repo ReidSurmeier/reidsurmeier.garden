@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>file.gallery/Web Projects/</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta name="author" content="Reid Surmeier">
+
+  <style>
+    html, body {
+      margin: 0;
+      text-size-adjust: none;
+      -webkit-text-size-adjust: 100%;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      overflow-x: scroll;
+    }
+    main {
+      box-sizing: border-box;
+      padding: 1.5em;
+    }
+
+    ::selection{
+      background-color:rgba(79, 143, 254, 0.5);
+    }
+
+    .item {
+      display: inline-block;
+      padding: 0em 0.25em;
+      margin: 1em 0;
+      border: 1px dotted rgba(79, 143, 254, 0.5);
+    }
+    .item img, .item video {
+      width: auto; height: auto;
+      max-width: 28em; max-height: 26em;
+    }
+    .item audio {
+      max-width: 18em;
+      height: 3em;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1em;
+      font-weight: normal;
+      color: gray;
+    }
+    h1, h2, h3, h4, h5, h6, p, ul, ol, li, pre, code {
+      margin: 0;
+    }
+    pre {
+      font-family: inherit;
+      white-space: pre-wrap;
+    }
+
+    a{
+      color:rgb(84, 136, 226);
+    }
+    a:hover{
+      color:rgb(127, 174, 255);
+    }
+
+    .md h1, .md h2, .md h3, .md h4, .md h5, .md h6, .md p, .md pre {
+      margin-top: 1em;
+    }
+
+    #back{
+      position:fixed;
+      top:1em;
+      left:1.5em;
+      padding:0em 0.25em;
+      margin:1em 0;
+      background-color:white;
+      z-index:999;
+    }
+
+    .breadcrumb-line{
+      white-space:nowrap;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div id="back"><h3><a href="..">back</a></h3></div>
+    <p>Web Projects/</p>
+
+    <div class="plantbed">
+      <div class="item">
+        <h3><a href="https://reidsurmeier.github.io/room-viewer-v1/">Room Viewer v1</a></h3>
+        <div class="md">
+          <p>First project. Interactive room tour.</p>
+        </div>
+      </div>
+      <div class="item">
+        <h3><a href="https://reidsurmeier.github.io/aurelius-konservatorium/">Aurelius Konservatorium</a></h3>
+        <div class="md">
+          <p>Speculative website project for a corporate museum.</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</body>
+</html>
